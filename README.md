@@ -6,4 +6,5 @@ This project is an Amazon clone, developed to mimic the functionality and design
 Technologies Used
 
 HTML: For structuring the content of the website.
+
 CSS: For styling and layout, creating an engaging user experience.
