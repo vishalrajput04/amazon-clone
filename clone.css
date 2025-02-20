@@ -140,25 +140,6 @@ span{
   background-size: cover;
   background-color: #ffffff;
 }
-.box{
-  height: 100%;
-  width: 100%;
-  margin-top: 20px;
-  background-color: white;
-}
-.box-content{
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-.box-img{
-  height: 200px;
-  width: 300px;
-  background-size: cover;
-  position: relative;
-  display: flex;
-  overflow: hidden;
-  background-color: lightgray;   
-}  
 footer{
   margin-top: 15px;
 }
