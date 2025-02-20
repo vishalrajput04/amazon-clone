@@ -1,3 +1,6 @@
+html, body{
+  overflow-x: hidden;
+}
 *{
   padding: 0px;
   margin: 0px;
@@ -6,6 +9,7 @@
 }
 .navbar {
   height: 70px;
+  width: 100%;
   background-color: #0f1111;
   color: #ffffff;
   display: flex;
@@ -98,6 +102,7 @@ span{
   color: white;
   align-items: center;
   justify-content: space-evenly;
+  cursor: pointer;
 }
 .panel i {
   margin-right: 5px;
@@ -106,16 +111,13 @@ span{
   display: inline;
   font-size: 0.85rem;
   margin-left: 50px;
+  cursor: pointer;
 }
-.panel-options p:hover {
-    font-size: 1rem;
-    font-size: 1.2em; 
-    transition: all 0.3s ease; 
-  }
 .content-area{
   background-image:url("content-img1.jpg");
   height: 250px;
   width: 100%;
+  margin-top: 1px;
   background-size: cover;
 }
 .content-area2{
@@ -126,7 +128,8 @@ span{
   background-size: cover;
 }
 .content-area3{
-  margin-top: 4px;
+  margin-top: 1px;
+  margin-bottom: 1px;
   background-image:url("content-img3.jpg");
   height: 250px;
   width: 100%;
@@ -134,21 +137,14 @@ span{
 }
 .shoping-area{
   display: flex;
-  justify-content: space-evenly;
-  background-color: #d4c4dd;
+  background-size: cover;
+  background-color: #ffffff;
 }
 .box{
-  height: 300px;
-  width: 320px;
+  height: 100%;
+  width: 100%;
   margin-top: 20px;
   background-color: white;
-}
-.box :hover{
-  background-color: lightgray; 
-  font-size: 1.2em; 
-  transition: all 0.3s ease;
-  transition: all 0.3 ease-in;
-  
 }
 .box-content{
   margin-left: 1rem;
@@ -175,20 +171,14 @@ footer{
   align-items: center;
   font-size: 0.85rem;
   font-weight: 700;
+  cursor: pointer;
 }
 .foot-panel2{
   color: white;
   display: flex;
   justify-content: space-evenly;
   background-color: #222f3d;
-}
-.foot-panel2 a:hover{
-  font-size: 1rem;
-  transition: all 0.3s ease; 
-}
-.foot-panel2 p:hover{
-  font-size: 1.5rem;
-  transition: all 0.3s ease; 
+  cursor: pointer;
 }
 ul{
   margin-top: 40px;
